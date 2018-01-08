@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device related repos -->
+	<project name="whitecodex/android_device_samsung_goyave3gsea" path="device/samsung/goyave3gsea" remote="github" revision="cm-14.1" />
+	<project name="whitecodex/android_vendor_samsung_goyave3gsea" path="vendor/samsung/goyave3gsea" remote="github" revision="cm-14.1" />
+	<project name="whitecodex/android_kernel_samsung_goyave3gsea" path="kernel/samsung/goyave3gsea" remote="github" revision="master" />
+
+<!-- Marvell related repos -->
+	<project name="whitecodex/android_vendor_marvell_external" path="hardware/marvell" remote="github" revision="cm-14.1" />
+	<project name="whitecodex/android_vendor_marvell_external" path="vendor/marvell/external" remote="github" revision="cm-14.1" />
+	<project name="whitecodex/android_vendor_marvell_generic" path="vendor/marvell/generic" remote="github" revision="cm-14.1" />
+
+<!-- Kernel Toolchain -->
+	<project name="SamsungGalaxyTab3/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="kitkat-mr2.2-release" />
+
+<!-- TWRP -->
+	<project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="github" revision="cm-14.1"/>
+	<project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
+
+</manifest>
